@@ -57,7 +57,7 @@ endif
 
 CCCS = -finput-charset=windows-1251 -fexec-charset=windows-1251
 HS = $(sort $(CHEADERS) $(GRMHEADER) $(CAIOGENERH) $(SMGENERH))
-INIT="D:\MinIDE\SciTE/../lib/initansicp.o"
+INIT="C:\Program Files (x86)\MinIDE\SciTE/../lib/initansicp.o"
 
 .PHONY : all clean
 

@@ -4,7 +4,7 @@ int main()
 { initwindow(800,600);
   //house();
   //sun();
-  //man();
+  man();
   //fence();
   getch();
   closegraph();

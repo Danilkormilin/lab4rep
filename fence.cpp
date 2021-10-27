@@ -6,9 +6,10 @@ void fence() {
     setfillstyle(SOLID_FILL,RED);
     setcolor(RED);
 
- for( i=0 ; i <30; i++){
+
+ for( i=0 ; i <40; i++){
     int tch[] = {20*i, 500, 5+20*i,490,10+20*i,500};
      fillpoly(3,tch);
-      bar(200+20*i,500,210+20*i,600);
+      bar(20*i,500,10+20*i,600);
     }
 }
